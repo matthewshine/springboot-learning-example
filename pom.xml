@@ -16,6 +16,7 @@
         <module>springboot-autoconfig</module>
         <module>springboot-rabbitmq-hello</module>
         <module>springboot-rabbitmq-advance</module>
+        <module>springboot-readinglist-demo</module>
     </modules>
 
 
