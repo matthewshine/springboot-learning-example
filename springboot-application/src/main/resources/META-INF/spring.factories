@@ -1,0 +1,16 @@
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.kouryoushine.bootstrap.context.AfterHelloWorldApplicationContextInitializer,\
+com.kouryoushine.bootstrap.context.HelloWorldApplicationContextInitializer\
+
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.kouryoushine.bootstrap.listener.AfterHelloWorldApplicationListener,\
+com.kouryoushine.bootstrap.listener.HelloWorldApplicationListener,\
+com.kouryoushine.bootstrap.listener.BeforeConfigFileApplicationListener
+
+
+# SpringApplicationRunListener Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+com.kouryoushine.bootstrap.run.HelloWorldRunListener

@@ -17,6 +17,8 @@
         <module>springboot-rabbitmq-hello</module>
         <module>springboot-rabbitmq-advance</module>
         <module>springboot-readinglist-demo</module>
+        <module>springboot-application</module>
+        <module>spring-webmvc</module>
     </modules>
 
 
