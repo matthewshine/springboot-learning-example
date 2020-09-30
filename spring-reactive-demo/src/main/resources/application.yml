@@ -1,0 +1,5 @@
+server:
+  port: 9999
+  jetty:
+    max-threads: 2000
+    connection-idle-timeout: 2000
