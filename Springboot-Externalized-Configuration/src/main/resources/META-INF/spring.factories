@@ -1,0 +1,6 @@
+# Run Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+com.kouryoushine.diveinspringboot.listener.ExtendPropertySourcesRunListener
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.kouryoushine.diveinspringboot.listener.ExtendPropertySourcesEventLisener
