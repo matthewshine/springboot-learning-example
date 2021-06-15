@@ -1,6 +1,8 @@
 package com.kouryoushine.springbootdemo.controller;
 
+import com.kouryoushine.autoconfigdemo.HelloService;
 import lombok.Data;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,6 +18,14 @@ import java.util.List;
  */
 @RestController
 public class HelloController {
+
+    @Autowired
+    HelloService helloService;
+
+    @GetMapping("/helloauto")
+    public void helloauto(){
+      helloService.printHello();
+    }
 
     @GetMapping("/hello")
     public User hello(){

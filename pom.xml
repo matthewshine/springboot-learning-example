@@ -21,6 +21,9 @@
         <module>spring-webmvc</module>
         <module>spring-reactive-demo</module>
         <module>Springboot-Externalized-Configuration</module>
+        <module>springboot-mybatisplus-example</module>
+        <module>springboot-autoconfiguration-demo</module>
+        <module>springboot-autoconfiuration-starter-demo</module>
     </modules>
 
 

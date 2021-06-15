@@ -1,0 +1,4 @@
+# 将HelloWorldAutoConfiguration类指定为自动装配的对象
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.kouryoushine.autoconfigdemo.HelloAutoConfiguration,\
+com.kouryoushine.autoconfigdemo.AspectLogAutoConfiguration

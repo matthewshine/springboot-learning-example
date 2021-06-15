@@ -19,6 +19,11 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.kouryoushine</groupId>
+            <artifactId>springboot-autoconfiuration-starter-demo</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <!--整合MVC-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
