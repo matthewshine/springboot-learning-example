@@ -24,6 +24,7 @@
         <module>springboot-mybatisplus-example</module>
         <module>springboot-autoconfiguration-demo</module>
         <module>springboot-autoconfiuration-starter-demo</module>
+        <module>springboot-mybatis-demo</module>
     </modules>
 
 

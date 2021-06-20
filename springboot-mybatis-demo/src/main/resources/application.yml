@@ -4,11 +4,6 @@ spring:
     password: root
     url: jdbc:mysql://47.105.145.157:3306/mp
     driver-class-name: com.mysql.cj.jdbc.Driver
-logging:
-  level:
-    root: warn
-    com.mp.dao: trace
-mybatis:
-  mapper-locations: classpath:mapper/*.xm
-#Mybatis配置
 
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
