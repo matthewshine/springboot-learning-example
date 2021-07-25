@@ -25,6 +25,8 @@
         <module>springboot-autoconfiguration-demo</module>
         <module>springboot-autoconfiuration-starter-demo</module>
         <module>springboot-mybatis-demo</module>
+        <module>spring-Ioc_demo</module>
+        <module>thinking-in-spring</module>
     </modules>
 
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+<!--通过导入复用-->
+    <import resource="DependencyLookUp.xml"/>
+
+    <bean id="userRepository" class="com.kouryoushine.thinking.in.spring.ioc.dependency.repository.UserRepository"
+          autowire="byType">
+        <!--auto-wiring 按照bean顺序注入-->
+    <!--<property name="users">-->
+        <!--<util:list>-->
+            <!--&lt;!&ndash;注入对象 手动配置 通过autowire实现自动注入 &ndash;&gt;-->
+            <!--<ref bean="user"></ref>-->
+            <!--<ref bean="superUser"></ref>-->
+        <!--</util:list>-->
+    <!--</property>-->
+    </bean>
+
+</beans>
